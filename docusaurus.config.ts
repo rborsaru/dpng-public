@@ -9,16 +9,13 @@ import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
 const config: Config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://rborsaru.github.io",
   baseUrl: "/dpng-public/",
+  projectName: 'dpng-public',
+  organizationName: 'rborsaru',
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
 
   presets: [
     [
